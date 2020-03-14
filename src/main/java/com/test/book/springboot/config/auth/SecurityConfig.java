@@ -17,7 +17,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         System.out.println("aaaaa");
 
-        System.out.println("Role.USER.name : "+Role.USER.name());
+        //System.out.println("Role.USER.name : "+Role.USER.name());
 
         http
                 .csrf().disable()
